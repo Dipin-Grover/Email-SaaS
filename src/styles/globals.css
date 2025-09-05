@@ -1,0 +1,17 @@
+/* Import Tailwind v4 */
+@import "tailwindcss";
+
+/* 🔽 Optional: custom global styles */
+:root {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Example: Apply font globally */
+body {
+  font-family: var(--font-sans);
+  background-color: #fff; /* or your preferred background */
+  color: #000; /* default text color */
+}
+
+/* You can add any resets or custom utilities here */
